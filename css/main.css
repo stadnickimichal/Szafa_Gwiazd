@@ -4,18 +4,19 @@ body{
     color: #323232;
     font-family: "Lato", sans-serif;
 }
-hr{border-color: #e5ceae;}
 #box{
     border: 1px solid #e5ceae;
-    padding: 15px 0;
-    box-shadow: 20px 20px 20px 20px #000;
+    padding: 15px 0 0 0;
 }
 header{
     text-align: center;
     font-size: 20px;
     color: #30306d;
 }
+hr{border-color: #e5ceae;}
 .first_row{margin-bottom: 30px;}
+.first_row img {margin-right: 15px;}
+.lastIcon{padding-right: 0;}
 .formDiv{
     text-align: center;
     padding: 30px;
@@ -30,6 +31,9 @@ header{
     height: 40px;
     margin-bottom: 30px;
     margin-left: 40px;
+    /*border-color:  #ffffff #ffffff #ffffff;*/
+    border: 2px solid #b9b9b9;
+    border-bottom: 1px solid #000000;
 }
 #submitBtn{
     width: 200px;
@@ -53,4 +57,10 @@ header{
 .avater{
     width: 117px;
     height: auto;
+}
+.hrFirst{
+    margin: 0 0 10px 0;
+}
+.hrSecond{
+    margin: 10px 0 0 0;
 }
