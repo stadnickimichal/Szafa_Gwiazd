@@ -49,18 +49,22 @@ hr{border-color: #e5ceae;}
     text-align: right;
     color:#929292;
     font-size: 20px;
+    border-bottom: 1px solid #e5ceae;
 }
-.lowerImg{
+.imgDiv span{
+    margin-right: 20px;
+}
+.secondImg{
+    padding: 10px 20px 10px 0;
+}
+.thirdImg{
+    border-bottom: 0;
+}
+.longImg{
     max-width: 980px;
     height: auto;
 }
 .avater{
-    width: 117px;
+    width: 115px;
     height: auto;
-}
-.hrFirst{
-    margin: 0 0 10px 0;
-}
-.hrSecond{
-    margin: 10px 0 0 0;
 }
